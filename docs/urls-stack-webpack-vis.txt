@@ -1,0 +1,4 @@
+https://github.com/almende/vis
+https://www.npmjs.com/package/vis
+https://webpack.js.org/guides/getting-started/
+https://webpack.js.org/configuration/
