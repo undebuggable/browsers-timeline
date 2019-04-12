@@ -13,6 +13,8 @@ const
     GECKO_WIKI = 'https://en.wikipedia.org/wiki/Gecko_(software)',
     SPIDER_MONKEY = 'SpiderMonkey',
     SPIDER_MONKEY_WIKI = 'https://en.wikipedia.org/wiki/SpiderMonkey',
+    WEBKIT = 'WebKit',
+    WEBKIT_WIKI = 'https://en.wikipedia.org/wiki/WebKit',
     BROWSERS_CONFIG = {
         groupOrder: 'order',
         min: '1995-01-01',
@@ -58,15 +60,23 @@ const
     ],
     BROWSERS_CHROME = [
         {
-            id: 1, group: 1,
+            id: 10, group: 1,
             content: `<a href=${BLINK_WIKI}>${BLINK}</a>`,
-            title:'Blink',
+            title: `${BLINK}`,
             start: '2013-04-03',
             end:DATE_TODAY,
             className:'browsers-layout-engine'
         },
         {
-            id: 2, group: 1,
+            id: 11, group: 1,
+            content: `<a href=${WEBKIT_WIKI}>${WEBKIT}</a>`,
+            title: `${WEBKIT}`,
+            start: '2008-09-02',
+            end: '2013-04-02',
+            className:'browsers-layout-engine'
+        },
+        {
+            id: 12, group: 1,
             content: `<a href=${V8_WIKI}>${V8}</a>`,
             title: `${V8}`,
             start: '2008-09-02',
@@ -76,7 +86,7 @@ const
     ],
     BROWSERS_FIREFOX = [
         {
-            id: 3, group: 3,
+            id: 30, group: 3,
             content: `<a href=${GECKO_WIKI}>${GECKO}</a>`,
             title:'Gecko',
             start: '1997-01-01',
@@ -84,7 +94,7 @@ const
             className:'browsers-layout-engine'
         },
         {
-            id: 4, group: 3,
+            id: 31, group: 3,
             content: `<a href=${SPIDER_MONKEY_WIKI}>${SPIDER_MONKEY}</a>`,
             title:`${SPIDER_MONKEY}`,
             start: '1996-03-01',
