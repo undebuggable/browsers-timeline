@@ -1,8 +1,8 @@
 import * as CONFIG from './timeline-config.js';
-import * as DATA from '../data/timeline-data-cv.js';
+import * as DATA from '../data/timeline-data-browsers.js';
 import 'vis/dist/vis.css'
 import '../styles/montserrat.modern-browsers.css'
-import '../styles/timeline-cv.css'
+import '../styles/timeline-app.css'
 import DataSet from 'vis/lib/DataSet';
 import Timeline from 'vis/lib/timeline/Timeline';
 

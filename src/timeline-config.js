@@ -1,4 +1,4 @@
 module.exports = {
-  ID_TIMELINE: 'cv_timeline',
+  ID_TIMELINE: 'timeline_app',
   EVENT_LOAD: 'load'
 };
