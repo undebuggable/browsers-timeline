@@ -1,0 +1,32 @@
+body, h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat';
+    color: #121212;
+    /*font-weight: 100;*/
+    /*font-weight: 200;*/
+    /*font-weight: 300;*/
+    font-weight: 400;
+    /*font-weight: 500;*/
+    /*font-weight: 600;*/
+}
+.vis-item .vis-item-overflow {
+    overflow: visible;
+}
+.legend p {
+    padding: 0.4em;
+    width: 15em;
+}
+a, a:visited {
+    color:#222;
+    text-decoration: underline;
+}
+a:hover {
+
+}
+.browsers-layout-engine {
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+}
+.browsers-js-engine {
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
