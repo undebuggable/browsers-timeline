@@ -16,31 +16,31 @@ body, h1, h2, h3, h4, h5 {
 .vis-item .vis-item-overflow {
     overflow: visible;
 }
-.cv-item-education-secondary {
+.browsers-item-education-secondary {
     background-color: lightblue;
     border-color: lightblue;
 }
-.cv-item-education-secondary .vis-item-content {
+.browsers-item-education-secondary .vis-item-content {
 }
-.cv-item-education-upper {
+.browsers-item-education-upper {
     background-color: lightskyblue;
     border-color: lightskyblue;
 }
-.cv-item-training {
+.browsers-item-training {
     background-color: steelblue;
     border-color:steelblue;
     color:#222;
 }
-.cv-item-experience-full-time {
+.browsers-item-experience-full-time {
     background-color: lightgreen;
     border-color: lightgreen;
 }
-.cv-item-experience-part-time {
+.browsers-item-experience-part-time {
     background-color: seagreen;
     border-color: seagreen;
     color:#eee;
 }
-.cv-item-experience-part-time a, .cv-item-experience-part-time a:visited {
+.browsers-item-experience-part-time a, .browsers-item-experience-part-time a:visited {
     color:#efefef;
 }
 .legend p {
