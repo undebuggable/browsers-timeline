@@ -9,6 +9,12 @@ const
     CHROME_WIKI = 'https://en.wikipedia.org/wiki/Google_Chrome',
     IE = 'Internet Explorer',
     IE_WIKI = 'https://en.wikipedia.org/wiki/Internet_Explorer',
+    EDGE = 'Edge',
+    EDGE_WIKI = 'https://en.wikipedia.org/wiki/Microsoft_Edge',
+    SAFARI = 'Safari',
+    SAFARI_WIKI = 'https://en.wikipedia.org/wiki/Safari_(web_browser)',
+    LYNX = 'Lynx',
+    LYNX_WIKI = 'https://en.wikipedia.org/wiki/Lynx_(web_browser)',
     BLINK = 'Blink',
     BLINK_WIKI = 'https://en.wikipedia.org/wiki/Blink_(browser_engine)',
     V8 = 'V8',
@@ -25,6 +31,8 @@ const
     CHAKRA_WIKI = 'https://en.wikipedia.org/wiki/Chakra_(JScript_engine)',
     JSCRIPT = 'JScript',
     JSCRIPT_WIKI = 'https://en.wikipedia.org/wiki/JScript',
+    EDGEHTML = 'EdgeHTML',
+    EDGEHTML_WIKI = 'https://en.wikipedia.org/wiki/EdgeHTML',
     BROWSERS_CONFIG = {
         groupOrder: 'order',
         min: '1995-01-01',
@@ -61,16 +69,22 @@ const
         },
         {
             id: 5, order: 5,
-            content: 'Edge'
+            content: `<a href=${EDGE_WIKI}>${EDGE}</a>`,
+            title: `${EDGE}`
         },
         {
             id: 6, order: 6,
-            content: 'Safari'
+            content: `<a href=${SAFARI_WIKI}>${SAFARI}</a>`,
+            title: `${SAFARI}`
         },
         {
             id: 7, order: 7,
             content: 'Opera'
         },
+        {
+            id: 8, order: 8,
+            content: 'Lynx'
+        }
     ],
     BROWSERS_CHROME = [
         {
@@ -168,6 +182,58 @@ const
             end:DATE_TODAY,
             className:'browsers-js-engine'
         }
+    ],
+    BROWSERS_EDGE = [
+        {
+            id: 50, group: 5,
+            content: `<a href=${EDGEHTML_WIKI}>${EDGEHTML}</a>`,
+            title: `${EDGEHTML}`,
+            start: '2015-07-29',
+            end:'2018-12-31',
+            className:'browsers-layout-engine'
+        },
+        {
+            id: 51, group: 5,
+            content: `<a href=${BLINK_WIKI}>${BLINK}</a>`,
+            title: `${BLINK}`,
+            start: '2019-01-01',
+            end:DATE_NOW,
+            className:'browsers-layout-engine'
+        },
+        {
+            id: 53, group: 5,
+            content: `<a href=${CHAKRA_WIKI}>${CHAKRA}</a>`,
+            title: `${CHAKRA}`,
+            start: '2015-07-29',
+            end:'2018-12-31',
+            className:'browsers-js-engine'
+        },
+        {
+            id: 54, group: 5,
+            content: `<a href=${V8_WIKI}>${V8}</a>`,
+            title: `${V8}`,
+            start: '2019-01-01',
+            end:DATE_NOW,
+            className:'browsers-js-engine'
+        }
+    ],
+    BROWSERS_SAFARI = [
+        {
+            id: 60, group: 6,
+            content: `<a href=${}>${}</a>`,
+            title: `${}`,
+            start: '1970-07-01',
+            end:'1970-10-31',
+            className:'browsers-layout-engine'
+        },
+        {
+            id: 61, group: 6,
+            content: `<a href=${}>${}</a>`,
+            title: `${}`,
+            start: '1970-01-01',
+            end:'1970-12-31',
+            className:'browsers-js-engine'
+        }
     ]
     // BROWSERS_ = [
     //     {
@@ -194,6 +260,8 @@ module.exports = {
     TIMELINE_ITEMS: BROWSERS_CHROME.concat(
       BROWSERS_CHROMIUM,
       BROWSERS_FIREFOX,
-      BROWSERS_IE
+      BROWSERS_IE,
+      BROWSERS_EDGE,
+      BROWSERS_SAFARI
     )
 };
