@@ -13,6 +13,8 @@ const
     EDGE_WIKI = 'https://en.wikipedia.org/wiki/Microsoft_Edge',
     SAFARI = 'Safari',
     SAFARI_WIKI = 'https://en.wikipedia.org/wiki/Safari_(web_browser)',
+    OPERA = 'Opera',
+    OPERA_WIKI = 'https://en.wikipedia.org/wiki/Opera_(web_browser)',
     LYNX = 'Lynx',
     LYNX_WIKI = 'https://en.wikipedia.org/wiki/Lynx_(web_browser)',
     BLINK = 'Blink',
@@ -33,6 +35,8 @@ const
     JSCRIPT_WIKI = 'https://en.wikipedia.org/wiki/JScript',
     EDGEHTML = 'EdgeHTML',
     EDGEHTML_WIKI = 'https://en.wikipedia.org/wiki/EdgeHTML',
+    NITRO = 'Nitro',
+    NITRO_WIKI = 'https://en.wikipedia.org/wiki/WebKit#JavaScriptCore',
     BROWSERS_CONFIG = {
         groupOrder: 'order',
         min: '1995-01-01',
@@ -79,11 +83,13 @@ const
         },
         {
             id: 7, order: 7,
-            content: 'Opera'
+            content: `<a href=${OPERA_WIKI}>${OPERA}</a>`,
+            title: `${OPERA}`
         },
         {
             id: 8, order: 8,
-            content: 'Lynx'
+            content: `<a href=${LYNX_WIKI}>${LYNX}</a>`,
+            title: `${LYNX}`
         }
     ],
     BROWSERS_CHROME = [
@@ -220,18 +226,18 @@ const
     BROWSERS_SAFARI = [
         {
             id: 60, group: 6,
-            content: `<a href=${}>${}</a>`,
-            title: `${}`,
-            start: '1970-07-01',
-            end:'1970-10-31',
+            content: `<a href=${WEBKIT_WIKI}>${WEBKIT}</a>`,
+            title: `${WEBKIT}`,
+            start: '2003-01-07',
+            end: DATE_NOW,
             className:'browsers-layout-engine'
         },
         {
             id: 61, group: 6,
-            content: `<a href=${}>${}</a>`,
-            title: `${}`,
-            start: '1970-01-01',
-            end:'1970-12-31',
+            content: `<a href=${NITRO_WIKI}>${NITRO}</a>`,
+            title: `${NITRO}`,
+            start: '2003-01-07',
+            end:DATE_NOW,
             className:'browsers-js-engine'
         }
     ]
