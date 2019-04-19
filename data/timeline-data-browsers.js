@@ -181,14 +181,14 @@ const
             content: `<a href=${JSCRIPT_WIKI}>${JSCRIPT}</a>`,
             title: `${JSCRIPT}`,
             start: '1995-08-16',
-            end:DATE_TODAY,
+            end: '2009-03-18',
             className:'browsers-js-engine'
         },
         {
             id: 402, group: 4,
             content: `<a href=${CHAKRA_WIKI}>${CHAKRA}</a>`,
             title: `${CHAKRA}`,
-            start: '1995-08-16',
+            start: '2009-03-19',
             end:DATE_TODAY,
             className:'browsers-js-engine'
         }
