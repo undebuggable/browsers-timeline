@@ -9,3 +9,4 @@
 * [TASK] IE - research exact time spans for browsers and their engines, find sources
 * [TASK] Opera - research exact time spans for browsers and their engines, find sources
 * [TASK] Edge - research exact time spans for browsers and their engines, find sources
+* [TASK] Configure IDE to sort the import automatically on save
