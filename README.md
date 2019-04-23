@@ -4,7 +4,7 @@ The boilerplate setup for a webpack application
 Introduction
 ----------------
 
-[This application follows the steps from the webpack tutorial](https://webpack.js.org/guides/development). The enabled features:
+[This application follows the steps from the webpack tutorial](https://webpack.js.org/guides/getting-started). The enabled features:
 
 * [asset management](https://webpack.js.org/guides/asset-management) - loading of styles, images, and custom fonts
 * [development features](https://webpack.js.org/guides/development) - enabled source maps, Webpack's web server, file watcher
