@@ -41,5 +41,5 @@ Build the production application
 
 `npm run build`
 
-The application built in the production mode will be in the directory `dist/`
+The production built of the application will be in the directory `dist/`.
  
