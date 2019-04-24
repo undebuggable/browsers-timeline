@@ -41,5 +41,5 @@ Build the production application
 
 `npm run build`
 
-The production built of the application will be in the directory `dist/`.
+The production deployment bundle will be in the directory `dist/`.
  
