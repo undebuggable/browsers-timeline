@@ -1,18 +1,16 @@
-const merge = require('webpack-merge');
-const common = require('./webpack.common.js');
-const webpack = require('webpack');
+const merge = require('webpack-merge')
+const common = require('./webpack.common.js')
+const webpack = require('webpack')
 
 module.exports = merge(common, {
   mode: 'development',
   optimization: {
-    usedExports: true
+    usedExports: true,
   },
   devtool: 'inline-source-map',
-  plugins: [
-    new webpack.HotModuleReplacementPlugin()
-  ],
+  plugins: [new webpack.HotModuleReplacementPlugin()],
   devServer: {
     contentBase: './dist',
-    hot: true
-  }
-});
+    hot: true,
+  },
+})
