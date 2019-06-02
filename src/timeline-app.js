@@ -2,7 +2,7 @@ require('vis/dist/vis.css')
 require('../styles/montserrat.modern-browsers.css')
 require('../styles/timeline-app.css')
 const CONFIG = require('./timeline-config.js')
-const DATA = require('../data/timeline-data-browsers.js')
+const DATA = require('../data/timeline-data.js')
 const DataSet = require('vis/lib/DataSet')
 const Timeline = require('vis/lib/timeline/Timeline')
 
