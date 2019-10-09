@@ -1,5 +1,7 @@
-The boilerplate setup for a webpack application
+browsers-timeline
 ========================
+
+The boilerplate setup for a webpack application
 
 Introduction
 ----------------
