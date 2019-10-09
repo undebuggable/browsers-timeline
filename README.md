@@ -1,7 +1,7 @@
 browsers-timeline
 ========================
 
-The boilerplate setup for a webpack application
+Boilerplate webpack application with a vis.js timeline.
 
 Introduction
 ----------------
