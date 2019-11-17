@@ -13,4 +13,4 @@ Introduction
 * [hot module replacement (HMR)](https://webpack.js.org/guides/hot-module-replacement)
 * [production](https://webpack.js.org/guides/production) - enabled development and production modes
 
-This simple example application is using [Vis.js](https://github.com/almende/vis) to display a timeline with history of web browsers. Production build of the application is deployed [over here](https://ow.cx/static/browsers-timeline/timeline-app.html).
+This simple example application is using [Vis.js](https://github.com/almende/vis) to display a timeline with history of web browsers. Production build of the application is deployed [over here](https://static.ow.cx/timeline-browsers/timeline-app.html).

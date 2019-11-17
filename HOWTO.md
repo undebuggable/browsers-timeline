@@ -1,4 +1,4 @@
-Development
+Setting up the development environment
 ====================
 
 Enable auto formatting of JavaScript and JSON in WebStorm
