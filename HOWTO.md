@@ -12,15 +12,16 @@ Setup in WebStorm [Prettier File Watcher](https://prettier.io/docs/en/webstorm.h
 
 The prettier [configuration](https://prettier.io/docs/en/options.html) is stored in the file [`.prettierrc`](https://prettier.io/docs/en/configuration.html).
 
-Running the application
-====================
-
 Installation
-------------
+====================
 
 Install the Node.js dependencies
 
 `npm install`
+
+
+Running the application
+====================
 
 Development mode
 -------------
